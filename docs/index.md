@@ -1,13 +1,16 @@
 ---
 myst:
   html_meta:
-    "description": "Learn about key air-gapped concepts and product-specific air-gapped documentation at Canonical, including Landscape, Ubuntu Pro, Juju, and MAAS."
+    "description": "Learn about key airgapped concepts and product-specific airgapped documentation at Canonical, including Landscape, Ubuntu Pro, Juju, and MAAS."
 ---
 
-# Air-gapped documentation at Canonical
+# Airgapped documentation at Canonical
 
-% TODO
-_Some words about this site._
+Airgapped environments are isolated from the public internet, either through strict network controls or full physical disconnection. Many organizations use them to meet security, compliance, or operational requirements. Working in these environments requires different workflows for installing, updating, and operating software.
+
+Canonical provides tools and guidance to support deploying and maintaining Ubuntu and other Canonical products in airgapped environments. This documentation set explains key concepts, types of airgaps, and considerations for planning airgapped deployments. It also links to product-specific guides for working without direct internet access.
+
+This documentation is intended for administrators, security teams, and engineers who manage systems in restricted or fully disconnected networks.
 
 ---
 
@@ -22,7 +25,7 @@ _Some words about this site._
 
 ```{grid-item-card} [Air-gapped documentation for Canonical products](products)
 
-**Product documentation** Links to air-gapped documentation for specific products
+**Product documentation** Links to airgapped documentation for specific products
 ```
 
 ````
