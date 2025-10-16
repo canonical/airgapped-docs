@@ -1,7 +1,7 @@
 ---
 myst:
   html_meta:
-    "description": "Learn key concepts about airgapped environments, including the types of airgaps and things to consider."
+    "description": "Learn key concepts about airgapped environments, including the types of airgaps and deployment considerations."
 ---
 
 (about-top)=
