@@ -79,7 +79,34 @@ The following products can also be used in airgapped environments.
 
 % TODO add these
 
+(products-kubernetes)=
+### Canonical Kubernetes and Charmed Kubernetes
+
+- [Install Canonical Kubernetes in airgapped environments](https://documentation.ubuntu.com/canonical-kubernetes/latest/snap/howto/install/offline/)
+- [Configure a custom registry](https://documentation.ubuntu.com/canonical-kubernetes/latest/charm/howto/custom-registry/)
+- [Install Charmed Kubernetes offline](https://ubuntu.com/kubernetes/charmed-k8s/docs/install-offline)
+
 (products-openstack)=
 ### Canonical OpenStack
 
 - [Airgapped and offline deployments](https://canonical-openstack.readthedocs-hosted.com/en/latest/explanation/design-considerations/#air-gapped-and-offline-deployments)
+
+(products-charmed-kubeflow)=
+### Charmed Kubeflow
+
+- [Install in an airgapped environment](https://documentation.ubuntu.com/charmed-kubeflow/how-to/install/install-air-gapped/)
+
+(products-charmed-mysql)=
+### Charmed MySQL
+
+- [Deploy in an offline or airgapped environment](https://canonical-charmed-mysql.readthedocs-hosted.com/how-to/deploy/air-gapped/index.html)
+
+(products-charmed-postgresql)=
+### Charmed PostgreSQL
+
+- [Deploy in an offline or airgapped environment](https://canonical-charmed-postgresql.readthedocs-hosted.com/14/how-to/deploy/air-gapped/)
+
+(products-microk8s)=
+### MicroK8s
+
+- [Install MicroK8s in an offline or airgapped environment](https://microk8s.io/docs/install-offline)
