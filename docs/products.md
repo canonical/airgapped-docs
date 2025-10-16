@@ -5,9 +5,7 @@ myst:
 ---
 
 (products-top)=
-# Air-gapped documentation for specific products
-
-% TODO make sure to go through and double check this list - make sure nothing was missed
+# Airgapped documentation for specific products
 
 Find product-specific documentation regarding air-gapped environments below.
 
@@ -76,8 +74,6 @@ The following products are commonly used in airgapped environments, but are not 
 ## Additional products
 
 The following products can also be used in airgapped environments.
-
-% TODO add these
 
 (products-kubernetes)=
 ### Canonical Kubernetes and Charmed Kubernetes
