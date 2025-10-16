@@ -37,7 +37,7 @@ When planning to deploy Canonical products in an airgapped environment, keep in 
 
 - **Software updates**
   
-  Updates (security patches, bug fixes, and new features) must be periodically mirrored or exported and imported into the environment. Depending on your deployment, this may involve tools such as Landscape, Enterprise Store, repository mirrors, and container registries.
+  Updates (security patches, bug fixes, and new features) must be periodically mirrored or exported and imported into the environment. Depending on your deployment, this may involve tools such as [Landscape](https://ubuntu.com/landscape), [Enterprise Store](https://snapcraft.io/enterprise-store), repository mirrors, and container registries.
 
 - **Repository mirrors**
   
