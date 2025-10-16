@@ -12,7 +12,7 @@ An airgapped environment is a type of environment in which systems are isolated 
 (about-types)=
 ## Types of airgapped environments
 
-There are two main types of airgapped environments: restricted network airgaps and fully-disconnected airgaps.
+There are two main types of airgapped environments: restricted network airgaps and fully disconnected airgaps.
 
 ### Restricted network airgap (controlled endpoint)
 
