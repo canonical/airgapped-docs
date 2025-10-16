@@ -18,7 +18,7 @@ There are two main types of airgapped environments: restricted network airgaps a
 
 In this model, the systems inside the airgaped environment don’t have direct access to the public internet. Instead, they can communicate with a designated external system by connecting through a controlled endpoint, such as a proxy server, gateway host, or firewall with allow-listed rules.
 
-This setup allows updates and data to flow in securely without exposing systems inside the environment to the internet. Because data can be synchronized through the controlled connection, this approach reduces the need for physical data transfers while still maintaining a strong security boundary.
+This setup allows updates and data to flow in securely without exposing systems inside the environment to the internet. Since data can be synchronized through the controlled connection, this approach reduces the need for physical data transfers while still maintaining a strong security boundary.
 
 This type of airgapped environment is often used when full isolation isn’t required, but tight control over external communication is still necessary.
 
