@@ -22,7 +22,7 @@ This setup allows updates and data to flow in securely without exposing systems 
 
 This type of airgapped environment is used when full isolation isn’t required, but tight control over external communication is still necessary.
 
-### Fully-disconnected airgap (manual data transfer)
+### Fully disconnected airgap (manual data transfer)
 
 In this model, the systems inside the environment have no network connectivity to external systems and the public internet. All updates and data must be brought in manually, typically using removable storage or other physical media.
 
