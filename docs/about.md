@@ -7,7 +7,7 @@ myst:
 (about-top)=
 # About airgapped environments
 
-An airgapped environment is a deployment where systems are isolated from the public internet and, in some cases, from all external networks. This isolation prevents direct access to external services, which requires special considerations for installing, updating, and operating software. Many organizations use airgapped environments to meet security, compliance, or operational requirements.
+An airgapped environment is a type of environment in which systems are isolated from the public internet and, in some cases, from all external networks. This isolation prevents direct access to external services, which requires special considerations for installing, updating, and operating software. Many organizations use airgapped environments to meet security, compliance, or operational requirements.
 
 (about-types)=
 ## Types of airgapped environments
@@ -20,7 +20,7 @@ In this model, the systems inside the airgap environment don’t have direct acc
 
 This setup allows updates and data to flow in securely without exposing systems inside the environment to the internet. Because data can be synchronized through the controlled connection, this approach reduces the need for physical data transfers while still maintaining a strong security boundary.
 
-This type of airgapped environment is often used when full isolation isn’t required, but tight control over external communication is still necessary.
+This type of airgapped environment is used when full isolation isn’t required, but tight control over external communication is still necessary.
 
 ### Fully-disconnected airgap (manual data transfer)
 
@@ -28,21 +28,21 @@ In this model, the systems inside the environment have no network connectivity t
 
 This lack of any external connectivity provides the strongest network separation, but requires more careful planning to keep systems up to date. Administrators must regularly prepare and manually transfer updates into the environment.
 
+This type of airgapped environment is used when the highest level of network isolation is required. They’re also common in physically isolated or remote environments where connectivity is impractical.
+
 (about-considerations)=
 ## Considerations
 
 When planning to deploy Canonical products in an airgapped environment, keep in mind:
 
 - **Software updates**
+  
   Updates (security patches, bug fixes, and new features) must be periodically mirrored or exported and imported into the environment. Depending on your deployment, this may involve tools such as Landscape, Enterprise Store, repository mirrors, and container registries.
 
 - **Repository mirrors**
+  
   Many products rely on external package repositories (e.g., APT, snaps, charm stores). You may need to set up internal mirrors or bring snapshots of these repositories into the environment.
 
 - **Internal networking**
+  
   Even without access to the public internet, internal systems still need reliable network access to each other. Administrators should consult specific product documentation for any special networking requirements.
-
-(about-summary)=
-## Summary
-
-Airgapped environments isolate systems from the public internet to meet security, compliance, or operational requirements. They’re also common in physically isolated or remote environments where connectivity is impractical. There are two major types of airgapped environments: a restricted network airgap, where communication is restricted to a controlled endpoint, or a fully-disconnected airgap, where all data must be manually transferred into the environment.
