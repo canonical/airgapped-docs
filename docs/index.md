@@ -30,6 +30,19 @@ This documentation is intended for administrators, security teams, and engineers
 
 ````
 
+## Project and community
+
+This documentation set warmly welcomes community contributions, suggestions, fixes, and constructive feedback.
+
+### Get involved
+
+- [Get support](https://ubuntu.com/support/community-support)
+- [Join the Discourse forum](https://discourse.ubuntu.com/)
+
+### Governance and policies
+
+- [Code of conduct](https://ubuntu.com/community/docs/ethos/code-of-conduct)
+
 ```{toctree}
 :hidden:
 :maxdepth: 2
@@ -37,3 +50,4 @@ This documentation is intended for administrators, security teams, and engineers
 Home <self>
 about
 Product-specific documentation <products>
+
