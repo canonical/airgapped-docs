@@ -24,7 +24,7 @@ import yaml
 #
 # TODO: Update with the official name of your project or product
 
-project = "Air-gapped"
+project = "Airgapped"
 author = "Canonical Ltd."
 
 
