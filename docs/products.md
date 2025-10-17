@@ -7,9 +7,9 @@ myst:
 (products-top)=
 # Airgapped documentation for specific products
 
-Find product-specific documentation regarding air-gapped environments below.
+Find product-specific documentation regarding airgapped environments below.
 
-If a product is not seen in this list, that only means no air-gapped documentation is yet available for that product. It might still be possible to use it in an air-gapped environment.
+If a product is not seen in this list, that only means no airgapped documentation is yet available for that product. It might still be possible to use it in an airgapped environment.
 
 Note that any links in our [Support Portal](https://support-portal.canonical.com/) require a [Canonical Support contract](https://documentation.ubuntu.com/pro/support-overview/) to view.
 
@@ -38,14 +38,14 @@ Note that any links in our [Support Portal](https://support-portal.canonical.com
 (products-landscape)=
 ### Landscape
 
-- [Install Landscape in an air-gapped environment](https://documentation.ubuntu.com/landscape/how-to-guides/landscape-installation-and-set-up/install-landscape-in-an-air-gapped-or-offline-environment/)
-- [Manage repositories in an air-gapped environment](https://documentation.ubuntu.com/landscape/how-to-guides/repository-mirrors/manage-repositories-in-an-air-gapped-or-offline-environment/)
+- [Install Landscape in an airgapped environment](https://documentation.ubuntu.com/landscape/how-to-guides/landscape-installation-and-set-up/install-landscape-in-an-air-gapped-or-offline-environment/)
+- [Manage repositories in an airgapped environment](https://documentation.ubuntu.com/landscape/how-to-guides/repository-mirrors/manage-repositories-in-an-air-gapped-or-offline-environment/)
 
 (products-livepatch)=
 ### Livepatch
 
-- [Air-gapped Livepatch on MicroK8s](https://ubuntu.com/security/livepatch/docs/livepatch_on_prem/tutorial/Getting%20started%20with%20air-gapped%20Livepatch%20and%20Microk8s)
-- [Air-gapped Livepatch using Snaps](https://ubuntu.com/security/livepatch/docs/livepatch_on_prem/tutorial/Getting%20started%20with%20air-gapped%20Livepatch%20and%20Snap)
+- [Airgapped Livepatch on MicroK8s](https://ubuntu.com/security/livepatch/docs/livepatch_on_prem/tutorial/Getting%20started%20with%20air-gapped%20Livepatch%20and%20Microk8s)
+- [Airgapped Livepatch using Snaps](https://ubuntu.com/security/livepatch/docs/livepatch_on_prem/tutorial/Getting%20started%20with%20air-gapped%20Livepatch%20and%20Snap)
 - (Support Portal) [Livepatch on-premises deployment behind a web proxy](https://support-portal.canonical.com/knowledge-base/Livepatch-on-prem-deployment-behind-a-web-proxy)
 
 (products-core-airgapped)=
