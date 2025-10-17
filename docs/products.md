@@ -46,7 +46,7 @@ Note that any links in our [Support Portal](https://support-portal.canonical.com
 
 - [Air-gapped Livepatch on MicroK8s](https://ubuntu.com/security/livepatch/docs/livepatch_on_prem/tutorial/Getting%20started%20with%20air-gapped%20Livepatch%20and%20Microk8s)
 - [Air-gapped Livepatch using Snaps](https://ubuntu.com/security/livepatch/docs/livepatch_on_prem/tutorial/Getting%20started%20with%20air-gapped%20Livepatch%20and%20Snap)
-- (Support Portal) [Livepatch on-prem deployment behind a web proxy](https://support-portal.canonical.com/knowledge-base/Livepatch-on-prem-deployment-behind-a-web-proxy)
+- (Support Portal) [Livepatch on-premises deployment behind a web proxy](https://support-portal.canonical.com/knowledge-base/Livepatch-on-prem-deployment-behind-a-web-proxy)
 
 (products-core-airgapped)=
 ## Other core products for airgaps
