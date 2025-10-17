@@ -68,7 +68,7 @@ The following products are commonly used in airgapped environments, but are not 
 (products-maas)=
 ### MAAS
 
-- [How to set up air-gapped MAAS](https://canonical.com/maas/docs/how-to-set-up-air-gapped-maas)
+- [How to set up airgapped MAAS](https://canonical.com/maas/docs/how-to-set-up-air-gapped-maas)
 
 (products-additional)=
 ## Additional products
