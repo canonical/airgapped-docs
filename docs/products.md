@@ -57,8 +57,8 @@ The following products are commonly used in airgapped environments, but are not 
 ### Enterprise Store
 
 - [Getting started with an airgapped store](https://documentation.ubuntu.com/enterprise-store/main/tutorial/air-gapped-deployment/)
-- [Offline store (air-gapped mode)](https://documentation.ubuntu.com/enterprise-store/main/how-to/airgap/)
-- [Offline Charmhub (air-gapped mode)](https://documentation.ubuntu.com/enterprise-store/main/how-to/airgap-charmhub/)
+- [Offline store (airgapped mode)](https://documentation.ubuntu.com/enterprise-store/main/how-to/airgap/)
+- [Offline Charmhub (airgapped mode)](https://documentation.ubuntu.com/enterprise-store/main/how-to/airgap-charmhub/)
 
 (products-juju)=
 ### Juju
