@@ -6,7 +6,7 @@ myst:
 
 # Airgapped documentation at Canonical
 
-Airgapped environments are offline from the public internet, either through strict network controls or full physical isolation. Many organizations use these environments to meet security, compliance, or operational requirements. Working in airgapped environments requires different processes for installing, updating, and operating software.
+Airgapped environments are offline from the public internet, either through strict network controls or full physical isolation. These environments can be complex, and are often used to meet certain security, compliance, or operational requirements.
 
 Canonical provides tools and guidance to support deploying and maintaining Ubuntu and other Canonical products in airgapped environments. This documentation set explains key concepts, types of airgaps, and considerations for planning airgapped deployments. It also links to product-specific documentation.
 
@@ -25,7 +25,7 @@ This documentation is intended for administrators, security teams, and engineers
 
 ```{grid-item-card} [Airgapped documentation for Canonical products](products)
 
-**Product documentation** Links to airgapped documentation for specific products
+**Product documentation**: Links to airgapped documentation for specific products
 ```
 
 ````
