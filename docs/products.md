@@ -76,11 +76,10 @@ The following products are commonly used in airgapped environments, but are not 
 The following products can also be used in airgapped environments.
 
 (products-kubernetes)=
-### Canonical Kubernetes and Charmed Kubernetes
+### Canonical Kubernetes
 
 - [Install Canonical Kubernetes in airgapped environments](https://documentation.ubuntu.com/canonical-kubernetes/latest/snap/howto/install/offline/)
 - [Configure a custom registry](https://documentation.ubuntu.com/canonical-kubernetes/latest/charm/howto/custom-registry/)
-- [Install Charmed Kubernetes offline](https://ubuntu.com/kubernetes/charmed-k8s/docs/install-offline)
 
 (products-openstack)=
 ### Canonical OpenStack
@@ -91,6 +90,11 @@ The following products can also be used in airgapped environments.
 ### Charmed Kubeflow
 
 - [Install in an airgapped environment](https://documentation.ubuntu.com/charmed-kubeflow/how-to/install/install-air-gapped/)
+
+(products-charmed-kubernetes)=
+### Charmed Kubernetes
+
+- [Install Charmed Kubernetes offline](https://ubuntu.com/kubernetes/charmed-k8s/docs/install-offline)
 
 (products-charmed-mysql)=
 ### Charmed MySQL
