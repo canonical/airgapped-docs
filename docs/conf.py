@@ -118,8 +118,7 @@ slug = 'airgapped'
 #######################
 
 # Use RTD canonical URL to ensure duplicate pages have a specific canonical URL
-# BJDEAN TODO: check if this works on RTD as previous setting was 'https://documentation.ubuntu.com/airgapped/'
-html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "/")
+html_baseurl = 'https://documentation.ubuntu.com/airgapped/'
 
 # sphinx-sitemap uses html_baseurl to generate the full URL for each page:
 sitemap_url_scheme = "{link}"
@@ -140,8 +139,8 @@ sitemap_excludes = [
 # Template and asset locations #
 ################################
 
-# html_static_path = ["_static"]
-# templates_path = ["_templates"]
+html_static_path = ["_static"]
+templates_path = ["_templates"]
 
 #############
 # Redirects #
@@ -258,7 +257,7 @@ exclude_patterns = [
 # ]
 
 html_css_files = [
-	'cookie-banner.css'
+    "https://assets.ubuntu.com/v1/d86746ef-cookie_banner.css",
 ]
 
 # Adds custom JavaScript files, located remotely or in 'html_static_path'.
@@ -267,7 +266,7 @@ html_css_files = [
 # ]
 
 html_js_files = [
-	'js/bundle.js',
+    "https://assets.ubuntu.com/v1/287a5e8f-bundle.js",
 ]
 
 # Appends extra markup to the end of every document written in reST
