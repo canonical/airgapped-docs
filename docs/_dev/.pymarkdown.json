@@ -12,7 +12,7 @@
             "enabled": true
         },
         "blanks-around-headings": {
-            "enabled": false
+            "enabled": true
         },
         "heading-start-left": {
             "enabled": true
