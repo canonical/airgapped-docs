@@ -44,8 +44,8 @@ Note that any links in our [Support Portal](https://support-portal.canonical.com
 (products-livepatch)=
 ### Livepatch
 
-- [Airgapped Livepatch on MicroK8s](https://ubuntu.com/security/livepatch/docs/livepatch_on_prem/tutorial/Getting%20started%20with%20air-gapped%20Livepatch%20and%20Microk8s)
-- [Airgapped Livepatch using Snaps](https://ubuntu.com/security/livepatch/docs/livepatch_on_prem/tutorial/Getting%20started%20with%20air-gapped%20Livepatch%20and%20Snap)
+- [Airgapped Livepatch on MicroK8s](https://ubuntu.com/security/livepatch/docs/server/tutorial/airgapped-livepatch-and-microk8s/)
+- [Airgapped Livepatch using Snaps](https://ubuntu.com/security/livepatch/docs/server/tutorial/airgapped-livepatch-and-snap/)
 - (Support Portal) [Livepatch on-premises deployment behind a web proxy](https://support-portal.canonical.com/knowledge-base/Livepatch-on-prem-deployment-behind-a-web-proxy)
 
 (products-core-airgapped)=
@@ -99,12 +99,12 @@ The following products can also be used in airgapped environments.
 (products-charmed-mysql)=
 ### Charmed MySQL
 
-- [Deploy in an offline or airgapped environment](https://canonical-charmed-mysql.readthedocs-hosted.com/how-to/deploy/air-gapped/index.html)
+- [Deploy in an offline or airgapped environment](https://canonical.com/data/mysql/docs/latest/how-to/deploy/airgapped/)
 
 (products-charmed-postgresql)=
 ### Charmed PostgreSQL
 
-- [Deploy in an offline or airgapped environment](https://canonical-charmed-postgresql.readthedocs-hosted.com/14/how-to/deploy/air-gapped/)
+- [Deploy in an offline or airgapped environment](https://canonical.com/data/postgresql/docs/latest/how-to/deploy/air-gapped/)
 
 (products-microk8s)=
 ### MicroK8s
