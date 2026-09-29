@@ -17,7 +17,14 @@ function overwriteMatchingAnchorUrls(container) {
 
   const rtd_addressRegex = new RegExp(escapeRegExp(rtd_address), 'g');
   container.querySelectorAll('a[href], link[href]').forEach((anchor) => {
-    anchor.href = anchor.href.replace(rtd_addressRegex, new_address);
+    // Use the attribute value rather than the .href property. Reading .href
+    // resolves root-relative URLs against the current page and assigning it
+    // back turns "/how-to/..." into an absolute URL. Search result links are
+    // root-relative and must remain so for prependPathToAnchorUrls below.
+    const href = anchor.getAttribute('href');
+    if (href && href.includes(rtd_address)) {
+      anchor.setAttribute('href', href.replace(rtd_addressRegex, new_address));
+    }
   });
 }
 
